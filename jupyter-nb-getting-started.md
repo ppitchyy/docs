@@ -11,7 +11,8 @@ Installing with Pip:
 * For Python2: `pip install jupyter`
 
 
-### Kernels:
+### Kernels: 
+* [IPython](https://en.wikipedia.org/wiki/IPython) (Interactive Python) is used as a kernel for Jupyter
 * If you are running Jupyter on Python 2 and want to set up a Python 3 kernel: 
 ```
 python3 -m pip install ipykernel
@@ -25,3 +26,11 @@ source activate py36
 conda install notebook ipykernel
 ipython kernel install --user
 ```
+
+# [Starting the Notebook Server](https://jupyter.readthedocs.io/en/latest/running.html#running)
+
+* Open specific Notebook: `jupyter notebook mynotebook.ipynb`
+* Start the Notebook using a custom IP or port (default is 8888): `jupyter notebook --port 9999`
+* Start the Notebook without opening a web browser: `jupyter notebook --no-browser`
+* Get help: `jupyter notebook --help`
+
